@@ -22,11 +22,11 @@ create Table SparePieces (
   `piece_name`  varchar(20),
   `price` varchar(15),
   `stock` INTEGER,
-  `supplier_name`  varchar(25) ,
-  `modelType` varchar(20) unique,
+  `supplierID`  varchar(25) ,
+  `modelType` varchar(20) ,
   primary key(pieceID),
   foreign key (modelType) references Vehicle(modelType),
-  foreign key (supplier_name) references Supplier(supplier_name)
+  foreign key (supplierID) references Supplier(supplierID)
 );
 
 create Table Customers (
