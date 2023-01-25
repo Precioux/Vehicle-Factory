@@ -12,6 +12,8 @@ INSERT INTO `db-project`.`customers` (`CustomerID`, `fname`, `lname`, `national_
 INSERT INTO `db-project`.`customers` (`CustomerID`, `fname`, `lname`, `national_ID`, `addressC`, `phone`) VALUES ('7', 'Dillon', 'Wolf ', '037344862', 'Simonis Tunnel Suite 936, Abbeyville, RI', '903-523-0656');
 INSERT INTO `db-project`.`customers` (`CustomerID`, `fname`, `lname`, `national_ID`, `addressC`, `phone`) VALUES ('8', 'Austen', 'Bruen', '216101764', 'Glover Pike Suite 593, Port Jacinto, MD', '803-802-5275');
 INSERT INTO `db-project`.`customers` (`CustomerID`, `fname`, `lname`, `national_ID`, `addressC`, `phone`) VALUES ('9', 'Chasity', 'Gleason ', '585743418', 'Okuneva Passage Apt. 510, Wolfport, NM', '281-259-8519');
+INSERT INTO `db-project`.`customers` (`CustomerID`, `fname`, `lname`, `national_ID`, `addressC`, `phone`) VALUES ('11', 'Douglas ', 'Delvalle', '525539926', 'Sampson Street, Denver, CO', '303-619-2991');
+
 
 INSERT INTO `db-project`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('2FTHZ15W', 'BMW', 'S650', 'Grey', '1');
 INSERT INTO `db-project`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('JH4DB755', 'Acura ', 'Integra', 'Red', '3');
