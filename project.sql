@@ -18,15 +18,15 @@ create Table Supplier {
 };
 
 create Table SparePieces {
-  pieceID char(5)
-  piece_name  varchar(20)
-  price varchar(15)
-  stock INTEGER
-  supplier_name  varchar(25)
-  model varchar(20)
-  primary key(pieceID)
-  foreign key (model) references Vehicle
-  foreign key (supplier_name) references Supplier
+  pieceID char(5),
+  piece_name  varchar(20),
+  price varchar(15),
+  stock INTEGER,
+  supplier_name  varchar(25),
+  model varchar(20),
+  primary key(pieceID),
+  foreign key (model) references Vehicle,
+  foreign key (supplier_name) references Supplier,
   foreign key (model) references Vehicle
 };
 
