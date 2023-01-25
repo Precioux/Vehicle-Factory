@@ -13,3 +13,24 @@ INSERT INTO `sys`.`customers` (`CustomerID`, `fname`, `lname`, `national_ID`, `a
 INSERT INTO `sys`.`customers` (`CustomerID`, `fname`, `lname`, `national_ID`, `addressC`, `phone`) VALUES ('8', 'Austen', 'Bruen', '216101764', 'Glover Pike Suite 593, Port Jacinto, MD', '803-802-5275');
 INSERT INTO `sys`.`customers` (`CustomerID`, `fname`, `lname`, `national_ID`, `addressC`, `phone`) VALUES ('9', 'Chasity', 'Gleason ', '585743418', 'Okuneva Passage Apt. 510, Wolfport, NM', '281-259-8519');
 
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('2FTHZ15W', 'BMW', 'S650', 'Grey', '1');
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('JH4DB755', 'Acura ', 'Integra', 'Red', '3');
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('ZAMBC38A', 'Maserati ', 'Coupe', 'Navy', '1');
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('JH4DA175', 'v', 'Impreza', 'White', '2');
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('YS3AK35E', 'Saab ', '900', 'Silver', '2');
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('SALVT2BG', 'Land Rover', 'Range Rover ', 'Blue', '3');
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('JT6HT00W', 'Lexus ', 'LX 470', 'Orange', '2');
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('4T1SK12E', 'Toyota ', 'Camry', 'Yellow', '1');
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('1HD1PDC3', 'Harley ', 'Davidson ', 'Green', '3');
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('1GCCT14R', 'Chevrolet', 'S 10', 'Purple', '1');
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('JN6MD06S', 'Datsun ', 'Pickup', 'Brown', '1');
+INSERT INTO `sys`.`vehicle` (`VIN`, `brand`, `modelType`, `color`, `gear`) VALUES ('1G3NF52E', 'Oldsmobile ', 'Alero', 'Pink', '3');
+
+INSERT INTO `sys`.`sparepieces` (`pieceID`, `piece_name`, `price`, `stock`, `supplier_name`, `modelType`) VALUES ('1', 'Oil Filter', '10'	, '5'  , 		'Maggie'	, 'Alero');
+INSERT INTO `sys`.`sparepieces` (`pieceID`, `piece_name`, `price`, `stock`, `supplier_name`, `modelType`) VALUES ('2', 'Air filter', '20'	, '12' , 		'Adams'		, 'Impreza');
+INSERT INTO `sys`.`sparepieces` (`pieceID`, `piece_name`, `price`, `stock`, `supplier_name`, `modelType`) VALUES ('3', 'Spark plug', '13'	, '4'  , 		'York'		, 'Range Rover ');
+INSERT INTO `sys`.`sparepieces` (`pieceID`, `piece_name`, `price`, `stock`, `supplier_name`, `modelType`) VALUES ('4', 'Battery'   , '30'	, '100', 		'McClintock', 'Camry');
+INSERT INTO `sys`.`sparepieces` (`pieceID`, `piece_name`, `price`, `stock`, `supplier_name`, `modelType`) VALUES ('5', 'AC Filter' , '60'	, '3'  , 		'Maggie'    , 'S650');
+INSERT INTO `sys`.`sparepieces` (`pieceID`, `piece_name`, `price`, `stock`, `supplier_name`, `modelType`) VALUES ('6', 'Brake Pad' , '12'	, '60' , 		'York'		, 'S 10');
+INSERT INTO `sys`.`sparepieces` (`pieceID`, `piece_name`, `price`, `stock`, `supplier_name`, `modelType`) VALUES ('7', 'Vehicle Radiator'	, '100', '12',  'McClintock', '900');
+INSERT INTO `sys`.`sparepieces` (`pieceID`, `piece_name`, `price`, `stock`, `supplier_name`, `modelType`) VALUES ('8', 'Shock absorber'  	, '25' , '6',   'Adams'		, 'Pickup');

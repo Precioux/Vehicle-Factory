@@ -22,7 +22,7 @@ create Table SparePieces (
   `piece_name`  varchar(20),
   `price` varchar(15),
   `stock` INTEGER,
-  `supplier_name`  varchar(25) unique,
+  `supplier_name`  varchar(25) ,
   `modelType` varchar(20) unique,
   primary key(pieceID),
   foreign key (modelType) references Vehicle(modelType),
