@@ -8,7 +8,7 @@ create Table Vehicle (
 );
 
 create Table Supplier (
-  `supplierID`  char(5) NOT NULL,
+  `supplierID`  varchar(25) NOT NULL,
   `supplier_name` varchar(25) unique,
   `contract_start`  date,
   `contract_finish` date,
