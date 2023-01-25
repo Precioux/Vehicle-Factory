@@ -35,3 +35,6 @@ INSERT INTO `db-project`.`sparepieces` (`pieceID`, `piece_name`, `price`, `stock
 INSERT INTO `db-project`.`sparepieces` (`pieceID`, `piece_name`, `price`, `stock`, `supplierID`, `modelType`) VALUES ('7', 'Vehicle Radiator'	, '100', '12',  '2', '900');
 INSERT INTO `db-project`.`sparepieces` (`pieceID`, `piece_name`, `price`, `stock`, `supplierID`, `modelType`) VALUES ('8', 'Shock absorber'  	, '25' , '6',   '3'		, 'Pickup');
 
+INSERT INTO `db-project`.`order_vehicle` (`orderID`, `CustomerID`, `VIN`) VALUES ('1', '1', '1G3NF52E');
+INSERT INTO `db-project`.`order_vehicle` (`orderID`, `CustomerID`, `VIN`) VALUES ('2', '2', '1GCCT14R');
+INSERT INTO `db-project`.`order_piece` (`orderID`, `CustomerID`, `pieceID`) VALUES ('3', '3', '1');
