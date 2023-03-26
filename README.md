@@ -13,7 +13,7 @@ This project was developed as a part of the Principles of Database Design course
 
 ## Database Schema
 
- The database schema is defined in the schema.sql file. It includes the following tables:
+ The database schema is defined in the phase2.sql file. It includes the following tables:
 
     customers: stores information about customers who have purchased vehicles
     employees: stores information about employees who work at the factory
